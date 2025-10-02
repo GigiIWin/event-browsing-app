@@ -44,7 +44,7 @@ const App: React.FC = () => {
       <EventsProvider>
         <Navbar />
         <Routes>
-          <Route path="" element={<Navigate to="/" replace />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </EventsProvider>
     </AuthProvider>
